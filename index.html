@@ -5,7 +5,7 @@
   <title>Cyb3rPh4nt0n's Web-Site</title>
   <meta name="keywords" content="cibersecurity, ciberseguridad, hack, hacking, ethical, pentesting, informática, Cyb3rPh4nt0n">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="https://github.com/Cyb3rPh4nt0n/cyb3rph4nt0n.github.io/blob/main/c0394b72e5a6bc6ea14c2737b9f91944-modified.png?raw=true" type="image/png">
+  <link rel="icon" href="C:\Users\grego\OneDrive\Imágenes\Saved Pictures\c0394b72e5a6bc6ea14c2737b9f91944-modified.png" type="image/png">
   <style>
     :root {
       --bg-color: #0f0f0f;
@@ -18,9 +18,9 @@
     body.light-mode {
       --bg-color: #f4f4f4;
       --text-color: #111;
-      --accent-color: #007acc;
-      --terminal-bg: #e6e6e6;
-      --terminal-text: #222;
+      --accent-color: #6c736c;
+      --terminal-bg: #bcbcbc;
+      --terminal-text: #070707;
     }
 
     body {
@@ -75,13 +75,13 @@
     }
 
     .theme-toggle {
-      margin-top: 20px;
       padding: 10px 20px;
       background-color: var(--accent-color);
       color: black;
       border: none;
       cursor: pointer;
       font-weight: bold;
+      border-radius: 5px;
     }
 
     .accordion-btn {
@@ -109,10 +109,23 @@
       from { opacity: 0; }
       to { opacity: 1; }
     }
+
+    .header-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
   </style>
 </head>
 <body>
-  <h1 class="typing" id="typewriter">👾 Bienvenido a la web de Cyb3rPh4nt0n 👾</h1>
+
+  <div class="header-container">
+    <h1 class="typing" id="typewriter">👾 Bienvenido a la web de Cyb3rPh4nt0n 👾</h1>
+    <button class="theme-toggle" onclick="toggleTheme()">🌗 Cambiar tema</button>
+  </div>
 
   <p>Estudiante de ciberseguridad, hacking ético y pentesting.</p>
 
@@ -120,8 +133,6 @@
     <p><strong>~/about_me$</strong> Hola, soy un entusiasta de la seguridad informática, explorador de sistemas y defensor de la ética hacker.</p>
     <p><strong>~/skills$</strong> Pentesting | OSINT | Linux | Red Team | Python | Bash</p>
   </div>
-
-  <button class="theme-toggle" onclick="toggleTheme()">🌗 Cambiar tema</button>
 
   <div class="projects">
     <h2>📁 Proyectos destacados</h2>
@@ -149,7 +160,7 @@
           <li>🔹 <a href="https://github.com/Cyb3rPh4nt0n/Python-codes/blob/main/%C3%89scaner_de_puertos.py" target="_blank">escaner_puertos.py</a></li>
           <li>🔹 <a href="https://github.com/Cyb3rPh4nt0n/Python-codes/blob/main/CIDR_Calculator.py" target="_blank">calculadora_CIDR.py</a></li>
           <li>🔹 <a href="https://github.com/Cyb3rPh4nt0n/Python-codes/blob/main/Passwords%20Generator.py" target="_blank">generador_contraseñas.py</a></li>
-          <li>🔹 <a href="https://github.com/Cyb3rPh4nt0n/Python-codes/blob/main/Keylogger.py" terget="_blank">keylogger.py</a></li>
+          <li>🔹 <a href="https://github.com/Cyb3rPh4nt0n/Python-codes/blob/main/Keylogger.py" target="_blank">keylogger.py</a></li>
           <li>🔹 <a href="https://github.com/Cyb3rPh4nt0n/Python-codes/blob/main/Reverse%20Shell%20Generator.py" target="_blank">reverse_shell_generator</a></li>
         </ul>
 
@@ -219,8 +230,8 @@
     </div>
 
     <div class="project">
-      <h3>💻 Terminal Concepts</h3>
-      <p>Apuntes sobre Linux y Windows.</p>
+      <h3>💻 Terminal Exploiter</h3>
+      <p>Simulador de shell remota para pruebas educativas de explotación.</p>
 
       <div class="accordion">
         <button class="accordion-btn" onclick="toggleAccordion('Linux')">📒 Apuntes Linux</button>
