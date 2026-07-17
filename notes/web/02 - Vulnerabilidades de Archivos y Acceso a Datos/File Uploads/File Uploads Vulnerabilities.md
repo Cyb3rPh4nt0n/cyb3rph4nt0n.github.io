@@ -4,10 +4,7 @@ Esta es, sin duda, una de las formas más rápidas y directas de conseguir un RC
 
 Un desarrollador despistado crea un formulario de subida de fotos de perfil. Guarda los archivos en una carpeta pública llamada `/uploads/` y no comprueba la extensión del archivo.
 
-1. Creas un archivo en tu máquina llamado `shell.php` con el siguiente código:
-
-![[Captura de pantalla 2026-06-26 130431.png]]
-
+1. Creas un archivo en tu máquina llamado `shell.php` con el siguiente código: `<?php system($_GET['cmd']); ?>`
 2. Lo subes a la web a través del formulario.
 3. Navegas a la ruta pública: `http://vulnerable.com/uploads/shell.php?cmd=whoami`
 4. El servidor ejecuta tu código PHP y tienes control total.
@@ -28,8 +25,7 @@ El backend comprueba la cabecera `Content-Type` de la petición HTTP para asegur
 
 El servidor lee los primeros bytes del archivo para verificar que realmente es una imagen (una imagen GIF real siempre empieza por los caracteres `GIF89a`).
 
-- **Solución:** Creas un archivo híbrido. Abres Burp Suite y en el cuerpo de tu archivo escribes:
-![[Pasted image 20260626131007.png]]
+- **Solución:** Creas un archivo híbrido. Abres Burp Suite y en el cuerpo de tu archivo escribes: `GIF89a <?php system($_GET['cmd']); ?>`
 	El servidor leerá los _Magic Bytes_, pensará que es un GIF legítimo, lo guardará como `foto.php` y, cuando lo ejecutes, PHP ignorará los caracteres `GIF89a` y ejecutará tu código malicioso.
 # 3. Mitigación de Abuso de Subidas de Archivos
 
