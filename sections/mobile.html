@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Mobile | Cyb3rPh4nt0n</title>
+
+  <link rel="stylesheet" href="../assets/css/styles.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📱</text></svg>">
+</head>
+
+<body>
+
+  <button class="mobile-toggle" id="mobile-toggle">
+    ☰
+  </button>
+
+  <aside class="sidebar">
+
+    <div class="logo">
+      🧠 Cyb3rPh4nt0n
+    </div>
+
+    <nav class="sidebar-nav">
+
+      <a href="../index.html">🏠 Dashboard</a>
+
+      <h3>Knowledge</h3>
+
+      <a href="wifi.html">📡 WiFi</a>
+      <a href="web.html">🌐 Web</a>
+      <a href="systems.html">🖥 Systems</a>
+      <a href="ad.html">🏢 Active Directory</a>
+      <a href="mobile.html" class="active">📱 Mobile</a>
+      <a href="hardware.html">🔩 Hardware</a>
+      <a href="rf.html">📻 RF</a>
+
+      <h3>Resources</h3>
+
+      <a href="proyects.html">💻 Proyectos</a>
+      <a href="scripts.html">⚡ Scripts</a>
+      <a href="writeups.html">📝 Writeups</a>
+
+      <h3>Profiles</h3>
+      <a href="https://github.com/cyb3rph4nt0n" target="_blank">
+        🐱 GitHub
+      </a>
+
+      <a href="https://app.hackthebox.com/users/2183064?profile-top-tab=machines&ownership-period=1M&profile-bottom-tab=prolabs" target="_blank">
+        📦 HackTheBox
+      </a>
+
+      <a href="https://www.instagram.com/cyb3rph4nt0n?igsh=MW1tdXYydHJqZ21odw==" target="_blank">
+        📸 Instagram
+      </a>
+
+    </nav>
+
+  </aside>
+
+  <main class="content">
+
+  <section class="hero">
+    <h1>📱 Mobile Security</h1>
+
+    <p>
+      Offensive Mobile Security Knowledge Base
+    </p>
+  </section>
+
+  <div class="notes-layout">
+
+    <!-- SIDEBAR NOTES -->
+
+    <aside class="notes-sidebar">
+
+      <input
+        type="text"
+        id="search-notes"
+        placeholder="Buscar notas..."
+      >
+
+      <div id="notes-sidebar"></div>
+
+    </aside>
+
+    <!-- CONTENT -->
+
+    <section class="note-content">
+      
+      <div id="breadcrumbs" class="breadcrumbs"></div>
+
+      <div id="tags-container" class="tags-container"></div>
+
+      <div class="card">
+        <div id="markdown-content"
+             class="markdown-body">
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+</main>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script src="../assets/js/mobile-script.js"></script>
+
+</body>
+
+</html>

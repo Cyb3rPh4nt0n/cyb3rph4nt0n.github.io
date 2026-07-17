@@ -1,0 +1,34 @@
+{
+  "Escalada de Privilegios": [
+    {
+      "title": "Escalada de Privilegios",
+      "path": "Teoría/Escalada de Privilegios",
+      "tags": ["system"]
+    }
+  ],
+  "Linux OS": [
+    {
+      "title": "1. Información básica del sistema",
+      "path": "linux os/1. información básica del sistema",
+      "tags": ["system"]
+    },
+    {
+      "title": "2. Usuarios y credenciales",
+      "path": "linux os/2. usuarios y credenciales",
+      "tags": ["users", "passwds"]
+    }
+  ],
+
+  "Windows OS": [
+    {
+      "title": "1. Información básica del sistema",
+      "path": "windows os/1. información básica del sistema",
+      "tags": ["system"]
+    },
+    {
+        "title": "2. Usuarios y grupos",
+        "path": "windows os/2. usuarios y grupos",
+        "tags": ["users", "groups"]
+    }
+  ]
+}

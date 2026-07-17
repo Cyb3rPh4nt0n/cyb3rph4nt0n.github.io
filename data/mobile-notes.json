@@ -1,0 +1,27 @@
+{
+  "Fundamentos Android": [
+    {
+      "title": "Activities",
+      "path": "fundamentos android/activities",
+      "tags": ["android"]
+    },
+    {
+      "title": "Services",
+      "path": "fundamentos android/intents",
+      "tags": ["android"]
+    }
+  ],
+
+  "Fundamentos iOS": [
+    {
+      "title": "App Sandbox",
+      "path": "fundamentos iOS/app sandbox",
+      "tags": ["iOS"]
+    },
+    {
+        "title": "App Transport Security",
+        "path": "fundamentos iOS/App Transport Security (ATS)",
+        "tags": ["iOS"]
+    }
+  ]
+}

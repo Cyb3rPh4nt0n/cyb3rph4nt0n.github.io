@@ -1,0 +1,45 @@
+{
+  "Python": [
+    {
+      "title": "Keylogger_Soft_TG.py",
+      "path": "Python/Keylogger_Soft_TG",
+      "tags": ["Keylogger", "Software", "Telegram"]
+    },
+    {
+      "title": "NetRecon.py",
+      "path": "Python/NetRecon",
+      "tags": ["Herramienta", "Escaner", "Redes"]
+    },
+    {
+      "title": "Wi-Fi_scan.py",
+      "path": "Python/Wi-Fi_scan",
+      "tags": ["Escaner", "Redes", "WiFi"]
+    }
+  ],
+
+  "Bash": [
+    {
+      "title": "Ejemplo 1",
+      "path": "título 2/ejemplo3",
+      "tags": ["example"]
+    },
+    {
+        "title": "Ejemplo 2",
+        "path": "título 2/ejemplo4",
+        "tags": ["example"]
+    }
+  ],
+
+  "C": [
+    {
+      "title": "Ejemplo 1",
+      "path": "título 3/ejemplo5",
+      "tags": ["example"]
+    },
+    {
+      "title": "Ejemplo 2",
+      "path": "título 3/ejemplo6",
+      "tags": ["example"]
+    }
+  ]
+}

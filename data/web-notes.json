@@ -1,0 +1,216 @@
+{
+  "01 - Server Side": [
+    {
+        "title": "Command Injection",
+        "path": "01 - Inyecciones del lado del Servidor (Server-Side)/Command Injection/Command Injection",
+        "tags": ["Injection", "Commands"]
+    },
+    {
+        "title": "LaTeX Injection",
+        "path": "01 - Inyecciones del lado del Servidor (Server-Side)/LaTeX Injection/LaTeX Injection",
+        "tags": ["Injection", "LaTeX"]
+    },
+    {
+        "title": "LDAP Injection",
+        "path": "01 - Inyecciones del lado del Servidor (Server-Side)/LDAP Injection/LDAP Injection",
+        "tags": ["Injection", "LDAP"]
+    },
+    {
+        "title": "NoSQL Injection",
+        "path": "01 - Inyecciones del lado del Servidor (Server-Side)/NoSQL Injection/NoSQL Injection",
+        "tags": ["Injection", "NoSQL"]
+    },
+    {
+        "title": "SQL Injection",
+        "path": "01 - Inyecciones del lado del Servidor (Server-Side)/SQL Injection/SQL Injection",
+        "tags": ["Injection", "SQL"]
+    },
+    {
+        "title": "SSTI",
+        "path": "01 - Inyecciones del lado del Servidor (Server-Side)/SSTI/SSTI",
+        "tags": ["Injection", "Template"]
+    },
+    {
+        "title": "XPath Injection",
+        "path": "01 - Inyecciones del lado del Servidor (Server-Side)/XPath Injection/XPath Injection",
+        "tags": ["Injection", "XPath"]
+    }
+  ],
+  "02 - File & Access Data Vulnerabilities": [
+    {
+        "title": "File Uploads",
+        "path": "02 - Vulnerabilidades de Archivos y Acceso a Datos/File Uploads/File Uploads Vulnerabilities",
+        "tags": ["File Upload"]
+    },
+    {
+        "title": "LFI - RFI  - Log Poisoning",
+        "path": "02 - Vulnerabilidades de Archivos y Acceso a Datos/LFI - RFI  - Log Poisoning/LFI - RFI  - Log Poisoning",
+        "tags": ["LFI", "RFI", "Log Poisoning", "LFI to RCE"]
+    },
+    {
+        "title": "XXE",
+        "path": "02 - Vulnerabilidades de Archivos y Acceso a Datos/XXE/XXE",
+        "tags": ["Entities"]
+    }
+  ],
+  "03 - Client Side" : [
+    {
+        "title": "Clickjacking",
+        "path": "03 - Vulnerabilides del lado del Cliente/Clickjacking/Clickjacking",
+        "tags": ["Client"]
+    },
+    {
+        "title": "CSRF",
+        "path": "03 - Vulnerabilides del lado del Cliente/CSRF/CSRF",
+        "tags": ["Client"]
+    },
+    {
+        "title": "CSS Injection",
+        "path": "03 - Vulnerabilides del lado del Cliente/CSS Injections/CSS Injections",
+        "tags": ["Client"]
+    },
+    {
+        "title": "CSTI",
+        "path": "03 - Vulnerabilides del lado del Cliente/CSTI/CSTI",
+        "tags": ["Client", "Template", "Injection"]
+    },
+    {
+        "title": "XSS",
+        "path": "03 - Vulnerabilides del lado del Cliente/XSS/XSS",
+        "tags": ["JavaScript"]
+    }
+  ],
+  "04 - Business Logic, Authentication & Access Control" : [
+    {
+        "title": "Enumeración de Usuarios o Recursos",
+        "path": "04 - Lógica de Negocio, Autenticación y Control de Acceso/Enumeración de Usuarios o Recursos/Enumeración de Usuarios o Recursos",
+        "tags": ["Users", "Enumeration"]
+    },
+    {
+        "title": "IDORS",
+        "path": "04 - Lógica de Negocio, Autenticación y Control de Acceso/IDORS/IDORS",
+        "tags": ["Access Control"]
+    },
+    {
+        "title": "Insecure Deserialization",
+        "path": "04 - Lógica de Negocio, Autenticación y Control de Acceso/Insecure Deserialization/Insecure Deserialization",
+        "tags": ["Deserialization"]
+    },
+    {
+        "title": "Explotación de JWT",
+        "path": "04 - Lógica de Negocio, Autenticación y Control de Acceso/JWT Exploitation/Explotación de JWT",
+        "tags": ["JWT"]
+    },
+    {
+        "title": "Rate Limiting y Ataques de Fuerza Bruta",
+        "path": "04 - Lógica de Negocio, Autenticación y Control de Acceso/Rate Limiting y Ataques de Fuerza Bruta/Rate Limiting y Ataques de Fuerza Bruta",
+        "tags": ["Brute Force"]
+    }
+  ],
+  "05 - Internal Logic Manipulation & Cryptography" : [
+    {
+        "title": "Insecure Deserialization Advanced",
+        "path": "05 - Manipulación de Lógica Interna y Criptografía/Insecure Deserialization Advanced/Insecure Deserialization Advanced",
+        "tags": ["Deserialization"]
+    },
+    {
+        "title": "Mass Assignment Attack",
+        "path": "05 - Manipulación de Lógica Interna y Criptografía/Mass Assignment Attack/Mass Assignment Attack",
+        "tags": ["Internal Logic"]
+    },
+    {
+        "title": "Padding Oracle Attack",
+        "path": "05 - Manipulación de Lógica Interna y Criptografía/Padding Oracle Attack/Padding Oracle Attack",
+        "tags": ["Criptografía"]
+    },
+    {
+        "title": "Prototype Pollution",
+        "path": "05 - Manipulación de Lógica Interna y Criptografía/Prototype Pollution/Prototype Pollution",
+        "tags": ["Prototype"]
+    },
+    {
+        "title": "Race Conditions",
+        "path": "05 - Manipulación de Lógica Interna y Criptografía/Race Conditions/Race Conditions",
+        "tags": ["Internal Logic"]
+    },
+    {
+        "title": "SQL Truncation Attack",
+        "path": "05 - Manipulación de Lógica Interna y Criptografía/SQL Truncation Attack/SQL Truncation Attack",
+        "tags": ["SQL", "Truncation"]
+    },
+    {
+        "title": "Type Juggling",
+        "path": "05 - Manipulación de Lógica Interna y Criptografía/Type Juggling/Type Juggling",
+        "tags": ["Internal Logic"]
+    }
+  ],
+  "06 - Infrastructure, APIs, & Modern Protocols" : [
+    {
+        "title": "Abuso de APIs y GraphQL",
+        "path": "06 - Infraestructura, APIs y Protocolos Modernos/Abuso de APIs y GraphQL/Abuso de APIs y GraphQL",
+        "tags": ["API"]
+    },
+    {
+        "title": "Ataque mediante la Cabecera Host",
+        "path": "06 - Infraestructura, APIs y Protocolos Modernos/Ataque mediante la Cabecera Host/Ataque mediante la Cabecera Host",
+        "tags": ["Protocol"]
+    },
+    {
+        "title": "Ataque ShellShock (CVE-2014-6271)",
+        "path": "06 - Infraestructura, APIs y Protocolos Modernos/Ataque ShellShock (CVE-2014-6271)/Ataque ShellShock",
+        "tags": ["Infraestructura", "CVE-2014-6271"]
+    },
+    {
+        "title": "Enumeración y Abuso de WebDAV y SQUID Proxies",
+        "path": "06 - Infraestructura, APIs y Protocolos Modernos/Enumeración y Abuso de WebDAV y SQUID Proxies/Enumeración y Abuso de WebDAV y SQUID Proxies",
+        "tags": ["Enumeration"]
+    },
+    {
+        "title": "SSRF",
+        "path": "06 - Infraestructura, APIs y Protocolos Modernos/SSRF/SSRF",
+        "tags": ["Server-Side"]
+    },
+    {
+        "title": "Web Sockets",
+        "path": "06 - Infraestructura, APIs y Protocolos Modernos/Web Sockets/Web Sockets",
+        "tags": ["Sockets"]
+    },
+    {
+        "title": "Zone Transfer Attack (AXFR)",
+        "path": "06 - Infraestructura, APIs y Protocolos Modernos/Zone Transfer Attack (AXFR)/Zone Transfer Attack",
+        "tags": ["AXFR"]
+    }
+  ],
+  "07 - Advanced Network Attacks & New Technologies" : [
+    {
+        "title": "Abuso de Pipelines de CI - CD (Jenkins, GitLab, GitHub Actions)",
+        "path": "07 - Ataques Avanzados de Red y Nuevas Tecnologías/Abuso de Pipelines de CI - CD (Jenkins, GitLab, GitHub Actions)/Abuso de Pipelines de CI - CD (Jenkins, GitLab, GitHub Actions)",
+        "tags": ["Nuevas Tecnologías"]
+    },
+    {
+        "title": "Ataques a Entornos de Contenedores (Docker y Kubernetes)",
+        "path": "07 - Ataques Avanzados de Red y Nuevas Tecnologías/Ataques a Entornos de Contenedores (Docker y Kubernetes)/Ataques a Entornos de Contenedores (Docker y Kubernetes)",
+        "tags": ["Nuevas Tecnologías"]
+    },
+    {
+        "title": "GraphQL Avanzado Batching Attacks y DoS por Profundidad",
+        "path": "07 - Ataques Avanzados de Red y Nuevas Tecnologías/GraphQL Avanzado Batching Attacks y DoS por Profundidad/GraphQL Avanzado Batching Attacks y DoS por Profundidad",
+        "tags": ["Nuevas Tecnologías"]
+    },
+    {
+        "title": "HTTP Request Smuggling",
+        "path": "07 - Ataques Avanzados de Red y Nuevas Tecnologías/HTTP Request Smuggling/HTTP Request Smuggling",
+        "tags": ["Red"]
+    },
+    {
+        "title": "Inyecciones en Entornos Cloud y Serverless (AWS Lambda - Azure Functions)",
+        "path": "07 - Ataques Avanzados de Red y Nuevas Tecnologías/Inyecciones en Entornos Cloud y Serverless (AWS Lambda - Azure Functions)/Inyecciones en Entornos Cloud y Serverless (AWS Lambda - Azure Functions)",
+        "tags": ["Nuevas Tecnologías", "Red"]
+    },
+    {
+        "title": "SSRF Avanzado en Entornos Distribuidos (Cloud y Redes Internas)",
+        "path": "07 - Ataques Avanzados de Red y Nuevas Tecnologías/SSRF Avanzado en Entornos Distribuidos (Cloud y Redes Internas)/SSRF Avanzado en Entornos Distribuidos (Cloud y Redes Internas)",
+        "tags": ["Nuevas Tecnologías", "Red"]
+    }
+  ]
+}

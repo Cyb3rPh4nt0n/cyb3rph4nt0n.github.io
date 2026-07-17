@@ -1,0 +1,27 @@
+{
+  "Título 1": [
+    {
+      "title": "Ejemplo 1",
+      "path": "título 1/ejemplo1",
+      "tags": ["example"]
+    },
+    {
+      "title": "Ejemplo 2",
+      "path": "título 1/ejemplo2",
+      "tags": ["example"]
+    }
+  ],
+
+  "Título 2": [
+    {
+      "title": "Ejemplo 1",
+      "path": "título 2/ejemplo3",
+      "tags": ["example"]
+    },
+    {
+        "title": "Ejemplo 2",
+        "path": "título 2/ejemplo4",
+        "tags": ["example"]
+    }
+  ]
+}
