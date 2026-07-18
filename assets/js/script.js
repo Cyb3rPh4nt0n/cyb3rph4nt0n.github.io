@@ -234,7 +234,7 @@ function createHTBChart() {
 
         label: "Máquinas resueltas",
 
-        data: [21, 4, 0, 0],
+        data: [22, 4, 0, 0],
 
         backgroundColor: [
 
