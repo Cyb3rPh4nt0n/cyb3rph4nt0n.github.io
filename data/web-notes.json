@@ -2,12 +2,12 @@
   "01 - Server Side": [
     {
         "title": "Command Injection",
-        "path": "Web/01 - Inyecciones del lado del Servidor (Server-Side)/Command Injection/Command Injection",
+        "path": "01 - Inyecciones del lado del Servidor (Server-Side)/Command Injection/Command Injection",
         "tags": ["Injection", "Commands"]
     },
     {
         "title": "LaTeX Injection",
-        "path": "../Web01 - Inyecciones del lado del Servidor (Server-Side)/LaTeX Injection/LaTeX Injection",
+        "path": "Web01 - Inyecciones del lado del Servidor (Server-Side)/LaTeX Injection/LaTeX Injection",
         "tags": ["Injection", "LaTeX"]
     },
     {
