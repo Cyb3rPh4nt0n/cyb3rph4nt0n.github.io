@@ -25,6 +25,10 @@ body {
 
 /* CURSOR */
 
+body {
+    cursor: url('https://github.com/Cyb3rPh4nt0n/cyb3rph4nt0n.github.io/blob/main/assets/img/cursor.cur'), auto;
+}
+
 a, button, input[type="submit"] {
     cursor: url('https://github.com/Cyb3rPh4nt0n/cyb3rph4nt0n.github.io/blob/main/assets/img/cursor.cur'), pointer;
 }
