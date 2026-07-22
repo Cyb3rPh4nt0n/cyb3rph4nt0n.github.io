@@ -26,11 +26,11 @@ body {
 /* CURSOR */
 
 body {
-    cursor: url('./assets/img/cursor.cur'), auto;
+  cursor: url('./assets/img/cursor.cur'), auto;
 }
 
 a, button, input[type="submit"] {
-    cursor: url('./assets/img/cursor.cur'), pointer;
+  cursor: url('./assets/img/cursor.cur'), pointer;
 }
 
 /* SIDEBAR */
