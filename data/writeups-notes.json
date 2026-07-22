@@ -28,12 +28,12 @@
   "VulnHub": [
     {
       "title": "Ejemplo 1",
-      "path": "título 3/ejemplo4",
+      "path": "título 3/ejemplo5",
       "tags": ["example"]
     },
     {
         "title": "Ejemplo 2",
-        "path": "título 3/ejemplo5",
+        "path": "título 3/ejemplo6",
         "tags": ["example"]
     }
   ]
