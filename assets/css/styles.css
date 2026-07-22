@@ -23,6 +23,12 @@ body {
   font-family: Arial, sans-serif;
 }
 
+/* CURSOR */
+
+a, button, input[type="submit"] {
+    cursor: url('https://hackforums.net'), pointer;
+}
+
 /* SIDEBAR */
 
 .sidebar {
