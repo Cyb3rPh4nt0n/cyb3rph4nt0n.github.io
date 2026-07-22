@@ -1,5 +1,5 @@
 {
-  "Título 1": [
+  "Hack The Box": [
     {
       "title": "Ejemplo 1",
       "path": "título 1/ejemplo1",
@@ -12,7 +12,7 @@
     }
   ],
 
-  "Título 2": [
+  "Try Hack Me": [
     {
       "title": "Ejemplo 1",
       "path": "título 2/ejemplo3",
@@ -21,6 +21,19 @@
     {
         "title": "Ejemplo 2",
         "path": "título 2/ejemplo4",
+        "tags": ["example"]
+    }
+  ],
+
+  "VulnHub": [
+    {
+      "title": "Ejemplo 1",
+      "path": "título 3/ejemplo4",
+      "tags": ["example"]
+    },
+    {
+        "title": "Ejemplo 2",
+        "path": "título 3/ejemplo5",
         "tags": ["example"]
     }
   ]
