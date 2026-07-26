@@ -23,21 +23,28 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* CURSOR PERSONALIZADO TOTAL */
+/* REGLA MAESTRA GENERAL PARA EL CURSOR */
 
-body {
+/* Aplica a toda la pantalla en estado normal y clic */
+body, body:active {
   cursor: url('../img/cursor.png'), auto !important;
 }
 
-body:active {
-  cursor: url('../img/cursor.png'), auto !important;
-}
-
-a, button, input[type="submit"], input[type="button"], [role="button"] {
+/* Fuerza tu PNG en CUALQUIER elemento que use la mano del navegador */
+[style*="cursor: pointer"],
+[style*="cursor:pointer"],
+a, button, summary, select, option,
+input[type="submit"], input[type="button"], [role="button"], [onclick] {
   cursor: url('../img/cursor.png'), pointer !important;
 }
 
-a:active, button:active {
+/* Corrección universal para elementos interactivos customizados */
+*:has(> *) {
+  /* Mantiene la compatibilidad en elementos anidados */
+}
+
+/* El truco definitivo: si el elemento reacciona al hover con una mano, usa tu PNG */
+*:active {
   cursor: url('../img/cursor.png'), pointer !important;
 }
 
