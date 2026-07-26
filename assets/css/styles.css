@@ -23,14 +23,22 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* CURSOR */
+/* CURSOR PERSONALIZADO TOTAL */
 
 body {
-  cursor: url('../img/cursor.png'), auto;
+  cursor: url('../img/cursor.png'), auto !important;
 }
 
-a, button, input[type="submit"] {
-  cursor: url('../img/cursor.png'), pointer;
+body:active {
+  cursor: url('../img/cursor.png'), auto !important;
+}
+
+a, button, input[type="submit"], input[type="button"], [role="button"] {
+  cursor: url('../img/cursor.png'), pointer !important;
+}
+
+a:active, button:active {
+  cursor: url('../img/cursor.png'), pointer !important;
 }
 
 /* SIDEBAR */
