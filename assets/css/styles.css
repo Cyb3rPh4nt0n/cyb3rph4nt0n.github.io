@@ -23,11 +23,30 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* REGLA MAESTRA GENERAL PARA EL CURSOR */
-
-/* Aplica a toda la pantalla en estado normal y clic */
-body, body:active {
+/* 1. Tus reglas anteriores para el cuerpo y los enlaces */
+body {
   cursor: url('../img/cursor.png'), auto !important;
+}
+
+body:active {
+  cursor: url('../img/cursor.png'), auto !important;
+}
+
+a, button, input[type="submit"], input[type="button"], [role="button"] {
+  cursor: url('../img/cursor.png'), pointer !important;
+}
+
+a:active, button:active {
+  cursor: url('../img/cursor.png'), pointer !important;
+}
+
+/* 2. NUEVO BLOQUE (Añadido al final para el menú de JavaScript) */
+.category-title {
+  cursor: url('../img/cursor.png'), pointer !important;
+}
+
+.category-title:active {
+  cursor: url('../img/cursor.png'), pointer !important;
 }
 
 /* Fuerza tu PNG en CUALQUIER elemento que use la mano del navegador */
