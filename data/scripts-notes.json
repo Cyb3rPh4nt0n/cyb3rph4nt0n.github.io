@@ -20,12 +20,12 @@
   "Bash": [
     {
       "title": "Ejemplo 1",
-      "path": "título 2/ejemplo3",
+      "path": "Bash/ejemplo3",
       "tags": ["example"]
     },
     {
         "title": "Ejemplo 2",
-        "path": "título 2/ejemplo4",
+        "path": "Bash/ejemplo4",
         "tags": ["example"]
     }
   ],
@@ -33,12 +33,12 @@
   "C": [
     {
       "title": "Ejemplo 1",
-      "path": "título 3/ejemplo5",
+      "path": "C/ejemplo5",
       "tags": ["example"]
     },
     {
       "title": "Ejemplo 2",
-      "path": "título 3/ejemplo6",
+      "path": "C/ejemplo6",
       "tags": ["example"]
     }
   ]
