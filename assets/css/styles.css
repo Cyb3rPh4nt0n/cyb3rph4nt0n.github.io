@@ -23,47 +23,31 @@ body {
   font-family: Arial, sans-serif;
 }
 
-/* 1. Tus reglas anteriores para el cuerpo y los enlaces */
-body {
+/* 1. Forzado universal absoluto (Cualquier elemento nuevo de JS mantendrá el cursor) */
+*, *::before, *::after {
   cursor: url('../img/cursor.png'), auto !important;
 }
 
-body:active {
+/* 2. Elementos interactivos (Enlaces creados por JS, botones, inputs y el menú móvil) */
+a, 
+button, 
+.note-link, 
+.active-note, 
+#mobile-toggle, 
+input[type="submit"], 
+input[type="button"], 
+[role="button"],
+#search-notes {
+  cursor: url('../img/cursor.png'), pointer !important;
+}
+
+/* 3. Evita que el estado activo/clic rompa el cursor en todo el sitio */
+*:active, *:focus {
   cursor: url('../img/cursor.png'), auto !important;
 }
 
-a, button, input[type="submit"], input[type="button"], [role="button"] {
-  cursor: url('../img/cursor.png'), pointer !important;
-}
-
-a:active, button:active {
-  cursor: url('../img/cursor.png'), pointer !important;
-}
-
-/* 2. NUEVO BLOQUE (Añadido al final para el menú de JavaScript) */
-.category-title {
-  cursor: url('../img/cursor.png'), pointer !important;
-}
-
-.category-title:active {
-  cursor: url('../img/cursor.png'), pointer !important;
-}
-
-/* Fuerza tu PNG en CUALQUIER elemento que use la mano del navegador */
-[style*="cursor: pointer"],
-[style*="cursor:pointer"],
-a, button, summary, select, option,
-input[type="submit"], input[type="button"], [role="button"], [onclick] {
-  cursor: url('../img/cursor.png'), pointer !important;
-}
-
-/* Corrección universal para elementos interactivos customizados */
-*:has(> *) {
-  /* Mantiene la compatibilidad en elementos anidados */
-}
-
-/* El truco definitivo: si el elemento reacciona al hover con una mano, usa tu PNG */
-*:active {
+/* 4. Específico para los enlaces e inputs activos para mantener el puntero de mano */
+a:active, button:active, .note-link:active, #mobile-toggle:active {
   cursor: url('../img/cursor.png'), pointer !important;
 }
 
