@@ -41,7 +41,7 @@ El problema surge cuando un administrador configura el bit SUID en binarios que 
 Cuando logras acceso inicial a una máquina Linux, lo primero que haces es buscar todos los archivos que tengan el bit SUID activo y pertenezcan a `root`. Para ello usamos este comando de `find`:
 
 ```bash
-find / -perm 4000 -user root 2>/dev/null
+find / -perm -4000 -user root 2>/dev/null
 ```
 
 - Explicación corta: Busca desde la raíz (`/`) archivos con permisos SUID (`-perm 4000`) cuyo dueño sea `root` (`-user root`), y oculta los errores de permisos denegados (`2>/dev/null`).
