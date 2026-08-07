@@ -109,7 +109,7 @@ async function loadMarkdown() {
   try {
 
     const response =
-      await fetch(`../notes/projects/${note}.md`);
+      await fetch(`../notes/projects/${note}`);
 
     if (!response.ok) {
       throw new Error("Nota no encontrada");
