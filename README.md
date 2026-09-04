@@ -2,7 +2,7 @@
 
 ¡Bienvenido a mi rincón de ciberseguridad e informática! Este repositorio contiene el código fuente de mi sitio web personal, un espacio dedicado a la difusión de conocimiento, publicación de *writeups*, apuntes sobre certificaciones y herramientas del sector. 
 
-🌐 **Visita la web aquí:** [cyb3rph4nt0n.github.io](/goto?url=https://cyb3rph4nt0n.github.io) 
+🌐 **Visita la web aquí:** [cyb3rph4nt0n.github.io](https://cyb3rph4nt0n.github.io) 
 
 ### 📁 Estructura del Proyecto
 
@@ -50,4 +50,4 @@ Este proyecto está bajo la licencia MIT. Puedes usar el código libremente cita
 
 Si quieres colaborar, tienes alguna sugerencia o simplemente quieres conectar, puedes encontrarme en: 
 
-* **GitHub:** [@Cyb3rPh4nt0n](/goto?url=https://github.com/Cyb3rPh4nt0n)
+* **GitHub:** [@Cyb3rPh4nt0n](https://github.com/Cyb3rPh4nt0n)
