@@ -27,16 +27,16 @@ Si deseas clonar este repositorio para realizar pruebas locales o contribuir, si
 
 1. **Clona el repositorio:** 
 
-bash
-
+```bash
 git clone https://github.com/Cyb3rPh4nt0n/cyb3rph4nt0n.github.io.git
+```
 
 Usa el código con precaución.
 2. **Navega al directorio del proyecto:** 
 
-bash
-
+```bash
 cd cyb3rph4nt0n.github.io
+```
 
 Usa el código con precaución.
 3. **Despliega localmente:**
